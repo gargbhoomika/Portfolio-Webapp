@@ -2,8 +2,6 @@ from email.mime.text import MIMEText
 import smtplib
 
 def send_email(email,name):
-    from_email = "connect.bhoomika@gmail.com"
-    from_password = "bhoomika3783"
     to_email = email
     subject = "Confirmation Message"
     message = """<h3>Thankyou for contacting me. I will get back to you as soon as possible </h3><br><h5>Regards<br>Bhoomika Garg</h5>"""
